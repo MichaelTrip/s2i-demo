@@ -5,22 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello, World!</title>
-    <!-- Include Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            background: #f8f9fa;
+        }
+
+        .jumbotron {
+            background: url('https://placekitten.com/1200/500') center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+            margin-bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    <div class="container mt-5">
-        <div class="card">
-            <div class="card-body">
-                <h1 class="card-title">Hello, World!</h1>
-                <p class="card-text">Welcome to my Java + Bootstrap App</p>
-            </div>
-        </div>
-    </div>
 
-    <!-- Include Bootstrap JS and Popper.js (order matters) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<div class="jumbotron">
+    <div class="container">
+        <h1 class="display-4">Hello, World!</h1>
+        <p class="lead">Welcome to my awesome Java + Bootstrap App</p>
+    </div>
+</div>
+
+<!-- Bootstrap JS and Popper.js (order matters) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 </body>
 </html>

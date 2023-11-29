@@ -1,0 +1,5 @@
+# .s2i/environment
+JAVA_APP_DIR=/app
+
+# Additional environment variables (if needed)
+# ENV_VAR_NAME=value

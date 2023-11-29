@@ -1,0 +1,9 @@
+# Dockerfile
+FROM openjdk:8-jdk-alpine
+
+COPY . /app
+WORKDIR /app
+
+RUN javac src/main/java/HelloWorld.java
+
+CMD ["java", "-cp", "src/main/java", "HelloWorld"]
